@@ -34,6 +34,14 @@ color: #4D5AE5;}
 
 /*btn & link styles*/
 
+.list .link {color: var(--sbt-text-cl);
+letter-spacing: 0.02em;
+text-decoration: none;}
+.conts {font-style: normal;
+color: var(--conts-text-cl);}
+.list .link:hover,
+.list .link:focus {color: var(--link-focus-cl);}
+
 .mp-btn-order {
 background: #4D5AE5;
 font-family: inherit;
@@ -66,15 +74,6 @@ background:var(--btn-bg-focus-cl);
 border: 1px solid #E7E9FC;
 color: #FFFFFF;}
 
-.conts {font-style: normal;
-color: var(--conts-text-cl);}
-.list .link { 
-color: #2E2F42;}
-.list .link:hover,
-.list .link:focus {
-color: var(--link-focus-cl);
-}
-
 .menu {font-weight: 500;}
 .company-conts {color: var(--conts-text-cl);}
 
@@ -93,13 +92,19 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-color: var(--sbt-text-cl);}
+color: var(--sbt-text-cl);
+text-align: center;
+text-transform: capitalize;}
 
 .sbt3 {
 font-weight: 500;
 font-size: 20px;
-line-height: 24px; 
-color: var(--sbt-text-cl);}    
+line-height: 24px;
+letter-spacing: 0.02em; 
+color: var(--sbt-text-cl);}
+
+.parag {font-size: 16px;}
+.pf-parag {}
 
 .bottom-text {color: #F4F4FD;}
 
@@ -109,7 +114,9 @@ color: var(--sbt-text-cl);}
 
 .main-page {background: var(--bg-dark);}
 
-.team-section {background: #F4F4FD;}    
+.team-section {background: #F4F4FD;}
+
+.list-item {background-color: #FFFFFF;}
 
 .bottom-section {background: var(--bg-dark);}
 
