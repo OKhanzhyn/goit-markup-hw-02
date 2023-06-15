@@ -1,0 +1,115 @@
+:root {--bg-dark: #2E2F42;}
+:root {--top-sect-bg: #E7E9FC;}
+:root {--btn-bg-focus-cl: #404BBF;}
+:root {--link-focus-cl: #404BBF;}
+:root {--sbt-text-cl: #2E2F42;}
+
+/*common styles*/
+
+body {
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.02em;
+color: #434455;
+font-size: 16px;
+line-height: 1.5;}
+
+/*reset*/
+
+.list {list-style: none;}
+.link {text-decoration: none; color: currentColor;}
+
+/*logo styles*/
+
+.logo {font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;}
+.web-cl {color: #4D5AE5;}
+.studio-cl {color: #F4F4FD;}
+
+/*btn & link styles*/
+.mp-btn-order {
+background: #4D5AE5;
+border-radius: 4px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;}
+.mp-btn-order:hover,
+.mp-btn-order:focus {
+background: var(--btn-bg-focus-cl);
+border-radius: 4px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;}
+
+.btn .portfolio-filter {
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+cursor: pointer;}
+.btn .portfolio-filter:hover,
+.btn .portfolio-filter:focus {
+background:var(--btn-bg-focus-cl);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;}
+
+.list .link { 
+color: #2E2F42;}
+.list .link:hover,
+.list .link:focus {
+color: var(--link-focus-cl);
+}
+
+.menu {font-weight: 500;}
+.company-mail {color: #434455;}
+.company-tel {color: #434455;}
+
+/*Page Text*/
+
+.main-page-title {
+color: #FFFFFF; 
+font-Weight: Bold;
+font-Size: 56px;
+letter-spacing: 0,02em;
+line-height: 1.07;}
+
+.sbt2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: var(--sbt-text-cl);}
+
+.sbt3 {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px; 
+color: var(--sbt-text-cl);}    
+
+.bottom-text {color: #F4F4FD;}
+
+/*Page backgrounds*/
+
+.top-section {background: var(--top-sect-bg)}    
+.main-page {background: var(--bg-dark);}
+
+.team-section {background: #F4F4FD;}    
+
+.bottom-section {background: var(--bg-dark);}
+
+
