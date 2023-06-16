@@ -16,7 +16,7 @@ background-color: #FFFFFF;}
 
 /*reset*/
 
-.list {list-style: none;}
+.list .list-item {list-style: none;}
 .link {text-decoration: none; color: currentColor;}
 
 /*logo styles*/
