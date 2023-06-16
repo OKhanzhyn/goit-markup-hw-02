@@ -41,7 +41,7 @@ text-decoration: none;}
 .list .link:focus {color: var(--link-focus-cl);}
 
 .conts {font-style: normal;}
-.company-conts {color: var(--conts-text-cl);}
+li > a.company-conts {color: var(--conts-text-cl);}
 
 .mp-btn-order {
 background: #4D5AE5;
