@@ -36,10 +36,8 @@ color: #4D5AE5;}
 .list .link {color: var(--sbt-text-cl);
 letter-spacing: 0.02em;
 text-decoration: none;}
-.conts {font-style: normal;
-color: var(--conts-text-cl);}
-.company-conts{font-style: normal;
-color: var(--conts-text-cl);}
+.conts {font-style: normal;}
+.company-conts{color: var(--conts-text-cl);}
 .list .link:hover,
 .list .link:focus {color: var(--link-focus-cl);}
 
