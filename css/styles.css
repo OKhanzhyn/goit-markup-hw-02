@@ -33,15 +33,14 @@ color: #4D5AE5;}
 
 /*btn & link styles*/
 
-.list .link {color: var(--sbt-text-cl);
-letter-spacing: 0.02em;
+.list .link {letter-spacing: 0.02em;
 text-decoration: none;}
 
 .list .link:hover,
 .list .link:focus {color: var(--link-focus-cl);}
 
 .conts {font-style: normal;}
-li > a.company-conts {color: var(--conts-text-cl);}
+.company-conts {color: var(--conts-text-cl);}
 
 .mp-btn-order {
 background: #4D5AE5;
@@ -75,7 +74,8 @@ background: var(--btn-bg-focus-cl);
 border: 1px solid #E7E9FC;
 color: #FFFFFF;}
 
-.menu {font-weight: 500;}
+.menu {font-weight: 500;
+color: var(--sbt-text-cl);}
 
 /*Page Text*/
 
