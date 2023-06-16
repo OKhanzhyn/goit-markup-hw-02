@@ -36,10 +36,12 @@ color: #4D5AE5;}
 .list .link {color: var(--sbt-text-cl);
 letter-spacing: 0.02em;
 text-decoration: none;}
-.conts {font-style: normal;}
-.company-conts {color: var(--conts-text-cl);}
+
 .list .link:hover,
 .list .link:focus {color: var(--link-focus-cl);}
+
+.conts {font-style: normal;}
+.company-conts {color: var(--conts-text-cl);}
 
 .mp-btn-order {
 background: #4D5AE5;
@@ -74,7 +76,6 @@ border: 1px solid #E7E9FC;
 color: #FFFFFF;}
 
 .menu {font-weight: 500;}
-.company-conts {color: var(--conts-text-cl);}
 
 /*Page Text*/
 
